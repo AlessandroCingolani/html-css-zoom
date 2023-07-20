@@ -98,7 +98,7 @@ section {
 .tools-bar .controls-mid {
   width: 60%;
   height: 100%;
-  margin: 0 auto;
+  text-align: center;
   background-color: blueviolet;
 }
 
