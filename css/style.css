@@ -44,11 +44,15 @@ section {
   height: calc(100vh - 90px);
   width: 90%;
   margin: 0 auto;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .back-light {
   font-size: .7rem;
   background-color: gray;
   padding: 2px 5px;
+}
+
+.user {
+  display: inline;
 }
