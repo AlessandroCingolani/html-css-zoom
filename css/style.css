@@ -80,13 +80,14 @@ section {
   height: 100%;
   background-color: blue;
 }
-.controls-left .mic {
+.tools-bar .icons {
   height: 100%;
   padding: 10px;
 }
 
-.tools-bar  .mic {
+.tools-bar  .icons {
   font-size: 1.6rem;
+  text-align: center;
 }
 
 .tools-bar  p {
@@ -97,6 +98,7 @@ section {
 .tools-bar .controls-mid {
   width: 60%;
   height: 100%;
+  margin: 0 auto;
   background-color: blueviolet;
 }
 
