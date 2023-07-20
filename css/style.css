@@ -28,16 +28,16 @@ main {
 
 .top-bar {
   width: 100%;
-  height: 80px;
+  height: 31px;
 }
 
 .tools-bar {
   width: 100%;
-  height: 80px;
+  height: 59px;
 }
 
 section {
-  height: calc(100vh - 160px);
+  height: calc(100vh - 90px);
   width: 80%;
   margin: 0 auto;
 }
