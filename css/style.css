@@ -77,6 +77,19 @@ section {
   height: 100%;
   background-color: blue;
 }
+.controls-left .mic {
+  height: 100%;
+  display: inline-block;
+}
+
+.tools-bar  i {
+  font-size: 1.6rem;
+}
+
+.tools-bar  p {
+  font-size: .6rem;
+  text-transform: capitalize;
+}
 
 .tools-bar .controls-mid {
   width: 60%;
