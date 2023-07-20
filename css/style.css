@@ -105,3 +105,10 @@ section {
   height: 100%;
   background-color: blue;
 }
+
+.end-call {
+  color: red;
+  width: 30%;
+  height: 100%;
+  background-color: black;
+}
