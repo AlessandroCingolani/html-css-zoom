@@ -21,6 +21,10 @@ img {
 .inline {
   display: inline-block;
 }
+
+.relative {
+  position: relative;
+}
 /* main */
 
 
@@ -72,13 +76,13 @@ section {
 .tools-bar {
   width: 100%;
   height: 59px;
+  min-width: 800px;
   background-color: rgb(34, 34, 34);
 }
 
 .tools-bar .controls-left {
   width: 20%;
   height: 100%;
-  background-color: blue;
 }
 .tools-bar .icons {
   height: 100%;
@@ -88,12 +92,15 @@ section {
 .tools-bar  .icons {
   font-size: 1.6rem;
   text-align: center;
+  background-color: aquamarine;
 }
 
-.tools-bar .chev {
-  font-size: .6rem;
-  
+.tools-bar .chev{
+  font-size: 10px;
+  height: 100%;
+  background-color: aqua;
 }
+
 .tools-bar  p {
   font-size: .6rem;
   text-transform: capitalize;
@@ -103,18 +110,20 @@ section {
   width: 60%;
   height: 100%;
   text-align: center;
-  background-color: blueviolet;
 }
 
 .tools-bar .controls-right {
   width: 20%;
   height: 100%;
-  background-color: blue;
 }
 
 .end-call {
+  float: right;
+  text-align: center;
+  font-size: .7rem;
+  line-height: 59px;
   color: red;
+  background-color: rgb(74, 74, 74);
   width: 30%;
   height: 100%;
-  background-color: black;
 }
