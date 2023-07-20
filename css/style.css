@@ -70,19 +70,23 @@ section {
   width: 100%;
   height: 59px;
   background-color: rgb(34, 34, 34);
+  display: flex;
 }
 
 .tools-bar .controls-left {
   width: 20%;
   height: 100%;
+  background-color: blue;
 }
 
 .tools-bar .controls-mid {
-  width: 50%;
+  width: 60%;
   height: 100%;
+  background-color: blueviolet;
 }
 
 .tools-bar .controls-right {
   width: 20%;
   height: 100%;
+  background-color: blue;
 }
