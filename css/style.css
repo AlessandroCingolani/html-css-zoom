@@ -17,7 +17,10 @@ body{
   border: 1px solid black;
 }
 
-
+img {
+  max-width: 185px;
+  max-height: 115px;
+}
 
 /* main */
 
@@ -56,3 +59,8 @@ section {
 .user {
   display: inline;
 }
+
+.user img {
+  margin-top: 10px;
+}
+
