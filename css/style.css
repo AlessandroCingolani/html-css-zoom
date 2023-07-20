@@ -92,13 +92,14 @@ section {
 .tools-bar  .icons {
   font-size: 1.6rem;
   text-align: center;
-  background-color: aquamarine;
 }
 
-.tools-bar .chev{
+
+.tools-bar .chev > i{
+  position: relative;
+  bottom: 20px;
   font-size: 10px;
-  height: 100%;
-  background-color: aqua;
+  
 }
 
 .tools-bar  p {
@@ -126,4 +127,8 @@ section {
   background-color: rgb(74, 74, 74);
   width: 30%;
   height: 100%;
+}
+
+.share > i {
+  color: green;
 }
