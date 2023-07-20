@@ -18,6 +18,9 @@ img {
   display: flex;
 }
 
+.inline {
+  display: inline-block;
+}
 /* main */
 
 
@@ -79,10 +82,10 @@ section {
 }
 .controls-left .mic {
   height: 100%;
-  display: inline-block;
+  padding: 10px;
 }
 
-.tools-bar  i {
+.tools-bar  .mic {
   font-size: 1.6rem;
 }
 
